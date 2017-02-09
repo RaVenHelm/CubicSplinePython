@@ -4,7 +4,7 @@ link: https://en.wikipedia.org/wiki/Crout_matrix_decomposition
 """
 
 
-def crout_factorizatoin(n, matrix):
+def crout_factorization(n, matrix):
     sols = [0.0] * n
 
     l = [[0.0] * n for _ in range(n)]
